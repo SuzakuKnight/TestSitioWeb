@@ -1,5 +1,11 @@
 body{
     font-family: "Titillium Web", sans-serif ;
+    background: url(../img/fondo.png);
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* sombra negra suave */
+    background-color: rgba(0, 0, 0, 0.6); /* negro con transparencia */
+    padding: 2rem;
+    
 }
 
 header{
@@ -19,5 +25,10 @@ header{
 
 
 footer {
-    background: url(../img/smartphones.png);
+    background: url(../img/Nintendo-Consolas-Ventas.jpg);
+    text-align: center; 
+    padding: 2rem; 
+    background-color: #f8f8f8;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* sombra negra suave */
+    
 }
