@@ -37,10 +37,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active">
-                        <a class="nav-link active" href="#header">Inicio</a>
+                        <a class="nav-link active" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#info-one">Reseñas</a>
+                        <a class="nav-link" href="#separador1">Reseñas</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto</a>
@@ -312,22 +312,26 @@
 
     <!--footer-->
 
-    <footer>
-        <p><strong>Gracias por acompañarnos en este viaje retro</strong></p>
-        <p>
-            Esperamos que hayas disfrutado este recorrido por los títulos que marcaron un antes y un después en la
-            historia de Nintendo y de los videojuegos en general.
-            Cada uno de estos juegos no solo definió una era, sino que sigue inspirando a desarrolladores y jugadores
-            hasta hoy.
-        </p>
-        <p>
-            Seguiremos explorando más joyas del pasado, entendiendo su legado y conectándolas con el presente del
-            gaming.
-        </p>
-        <p><em>Porque jugar el pasado es entender el futuro del videojuego.</em></p>
-        <p><strong>¡Nos vemos en la próxima partida!</strong></p>
+    <footer class="bg-custom">
+        <div class="container-fluid">
+            <p><strong>Gracias por acompañarnos en este viaje retro</strong></p>
+            <p>
+                Esperamos que hayas disfrutado este recorrido por los títulos que marcaron un antes y un después en la
+                historia de Nintendo y de los videojuegos en general.
+                Cada uno de estos juegos no solo definió una era, sino que sigue inspirando a desarrolladores y jugadores
+                hasta hoy.
+            </p>
+            <p>
+                Seguiremos explorando más joyas del pasado, entendiendo su legado y conectándolas con el presente del
+                gaming.
+            </p>
+            <p><em>Porque jugar el pasado es entender el futuro del videojuego.</em></p>
+            <p><strong>¡Nos vemos en la próxima partida!</strong></p>
+        </div>
     </footer>
 
+
+   
 
     <!-- Bootstrap scrips -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -341,10 +345,7 @@
     <!--Scripts-->
     <script>
         window.sr = ScrollReveal();
-        sr.reveal(".navbar-nav", {
-            duration: 2000,
-            origin: "bottom"
-        });
+        
         sr.reveal(".saludo", {
             duration: 2000,
             origin: "top",
